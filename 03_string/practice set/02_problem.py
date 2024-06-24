@@ -8,7 +8,7 @@ You are selected!
 name = input("Enter your name: ")
 date = input("Enter date: ");
 
-print(letter.format("<|Name|>",name))
-print(letter.format("<|Date|>",date))
+print(letter.replace("<|Name|>",name).replace("<|Date|>",date))
+# print(letter.replace("<|Date|>",date))
 
 # print(letter);
