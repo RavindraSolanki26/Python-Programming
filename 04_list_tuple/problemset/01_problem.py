@@ -1,0 +1,17 @@
+
+fruits1 = input("enter the fruits ")
+fruits2 = input("enter the fruits ")
+fruits3 = input("enter the fruits ")
+fruits4 = input("enter the fruits ")
+fruits5 = input("enter the fruits ")
+fruits6 = input("enter the fruits ")
+fruits7 = input("enter the fruits ")
+li = [];
+li.append(fruits1)
+li.append(fruits2)
+li.append(fruits3)
+li.append(fruits4)
+li.append(fruits5)
+li.append(fruits6)
+li.append(fruits7)
+print(li)
